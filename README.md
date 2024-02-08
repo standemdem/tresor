@@ -10,7 +10,8 @@ Ecrire un code python qui permet de:
 * Si possible ajoutez des unit tests sur le code python que vous avez écrit.
 
 ### Program Setup
-I am working on Linux with WSL2 using Ubuntu 22.04.3 LTS
+I am working on Linux with WSL2 using Ubuntu 22.04.3 LTS.
+Follow these steps after cloning my repository.
 
 1. Create a virtual environment
 ```python
