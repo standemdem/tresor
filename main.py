@@ -1,10 +1,10 @@
-from functions import extract_tables,extract_matches, display_information
+from functions import extract_tables, extract_matches, display_information
 
 if __name__ == "__main__":
-    fichier_pptx = "example FASEP.pptx"
+    pptx_file = "example FASEP.pptx"
     patterns = ["Montant du FASEP", 
                 "Date de signature de la convention", 
                 "Avis sur le versement intermédiaire"]
-    tableaux = extract_tables(fichier_pptx)
-    test = extract_matches(tableaux, patterns)
-    display_information(test)
+    tables = extract_tables(pptx_file)
+    result = extract_matches(tables, patterns)
+    display_information(result)
