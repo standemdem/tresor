@@ -21,6 +21,10 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 3. Install the required packages
+For this project, only pptx and pytest need to be installed, other packages are not needed, but I didn't have the time to clean up the requirements.txt.
+
+If you want to make sure that it works, use the command bellow
+
 ```
 pip install requirements.txt
 ```
@@ -29,4 +33,8 @@ pip install requirements.txt
 python3 main.py
 ```
 
+5. Start the tests
+```
+python3 -m pytest tests/
+```
 
